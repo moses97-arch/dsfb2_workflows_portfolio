@@ -2,6 +2,7 @@
 title: "Curriculum Vitae"
 author: "Moses Lahai"
 date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
 output: html_document
 ---
 # PROFILE
@@ -39,7 +40,7 @@ Driezorg, Zwolle, Netherlands, Elderly care assistance
 # EDUCATION
 B Biologie en Medisch Laboratorium onderzoek HBO 
 bachelor, Hogeschool Utrecht, Utrecht, Nederland 
- Weighted average grade: 7.2 
+Weighted average grade: 7.2 
 Minor Data Sciences for Biology 1, Hogeschool Utrecht, 
 Utrecht, Nederland 
 Minor Applied Bioanalytical and Pharmaceutical 
@@ -57,39 +58,40 @@ Celeanum, Zwolle, Nederland
 2016 – 2017  
 2012 – 2016 
 2011 – 2012
+
 # SKILLS 
 Laboratory Techniques  
- SDS-PAGE and Western blot  
- Sterile technique & pipetting  
- BCA-assay  
- DNA-isolation and PCR (basic)  
- Basic experience with mass spectrometry  
+SDS-PAGE and Western blot  
+Sterile technique & pipetting  
+BCA-assay  
+DNA-isolation and PCR (basic)  
+Basic experience with mass spectrometry  
 Research  
- Formulating research questions based on scientific literature  
- Using databases and search engines  
- Efficient scientific literature reading  
- Designing and planning research workflows  
- Selecting appropriate biomedical research methods and techniques  
- Performing laboratory techniques independently and collaboratively  
- Applying basic biomedical research techniques correctly and safely  
+Formulating research questions based on scientific literature  
+Using databases and search engines  
+Efficient scientific literature reading  
+Designing and planning research workflows  
+Selecting appropriate biomedical research methods and techniques  
+Performing laboratory techniques independently and collaboratively  
+Applying basic biomedical research techniques correctly and safely  
 Collaboration & Communication  
- Effective teamwork  
- Critical and respectful interaction with team members  
- Communicating scientific findings 
+Effective teamwork  
+Critical and respectful interaction with team members  
+Communicating scientific findings 
 Software & Data Analysis  
- R (data wrangling, RNA-seq analysis, metagenomics, GO-enrichment analysis) 
- Python (scripting and data analysis) 
- Excel  
- Bash (command-line, used in bioinformatics workflows) 
+R (data wrangling, RNA-seq analysis, metagenomics, GO-enrichment analysis) 
+Python (scripting and data analysis) 
+Excel  
+Bash (command-line, used in bioinformatics workflows) 
 
 # LANGUAGE 
- Dutch – Fluent  
- English – Fluent
+Dutch – Fluent  
+English – Fluent
 
 # INTERESTS & HOBBIES 
- Reading 
- Drawing  
- Sports and exercising  
- Spending time with friends and family  
- Watching movies
+Reading 
+Drawing  
+Sports and exercising  
+Spending time with friends and family  
+Watching movies
 
