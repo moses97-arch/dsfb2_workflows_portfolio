@@ -1,9 +1,4 @@
----
-title: "Curriculum Vitae"
-author: "Moses Lahai"
-site: bookdown::bookdown_site
-output: html_document
----
+# Curriculum Vitae
 | **Moses Lahai** | 8031ZK Zwolle |
 |---|---:|
 | | Email: lahai_moses@hotmail.com, moses.lahai@student.hu.nl |

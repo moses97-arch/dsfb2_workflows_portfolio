@@ -1,7 +1,11 @@
 ---
-title: "Curriculum Vitae"
+title: "Portfolio Moses Lahai"
 author: "Moses Lahai"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: html_document
+output: bookdown:gitbook
 ---
+# Welcome
+
+This is my portfolio for the course Workflows (Data Science for Biology 2).
+It shows my skills in data science for biology.
