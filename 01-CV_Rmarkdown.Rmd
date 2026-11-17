@@ -4,9 +4,8 @@ author: "Moses Lahai"
 site: bookdown::bookdown_site
 output: html_document
 ---
-| **Moses Lahai** | Chopinstraat 46, 8031ZK Zwolle |
+| **Moses Lahai** | 8031ZK Zwolle |
 |---|---:|
-| | Phone: 0685575804 |
 | | Email: lahai_moses@hotmail.com, moses.lahai@student.hu.nl |
 | | LinkedIn: https://www.linkedin.com/in/moses-lahai-71a881439/ |
 
