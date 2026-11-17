@@ -30,14 +30,16 @@ On the data side I work in R (RNA-seq analysis, metagenomics, GO enrichment), Py
 Most vacancies in that have a requirement for data science in research, biotech, diagnostics ask for knowledge in python, R and statistics/machine learning and experience with snakemake or Nextflow. For example a vacancy in Amsterdam UMC (genome diagnostics) asks for Python, familiarity with quality assurance systems and ISO standards, and willingness to work with Linux and HPC while a UMC Groningen vacancy asks for experience with Snakemake or Nextflow plus knowledge of data stewardship rules, Erasmus MC asks for Python or Java and Nextflow or Snakemake, and Maastricht UMC+ lists HPC, Linux, SLURM and Snakemake/Nextflow.
 
 ## What I still want to learn
-Out of the 17 vacancies most ask for experience in snakemake and nextflow. However for this course I will be tackling machine learning/statistics and using that on NGS data analysis. I chose machine learning first I am curious about what expression data can predict, and it builds on the R/Python skills I already have
+Out of the 17 vacancies most ask for experience in snakemake and nextflow. However for this course I will be tackling machine learning/statistics and using that on NGS data analysis. I chose machine learning first I cause I am curious about what expression data can predict, and it builds on the R/Python skills I already have. Aside from that by using the machine learning skill on for NGS data analysis, which is also one of the most requested skills, I will have a complete and full skillset
 
 # Learning machine learning for biology: predicting cancer type from RNA-seq data
 
 ## Why this skill
 
 <!-- Short justification that links back to the previous chapter. -->
-In my vacancy analysis, statistics and machine learning were requested in several vacancies and are only partly covered by my current skills. I apply the skill to a biological question: **can machine learning distinguish cancer types (or subtypes) based on gene expression profiles?**
+In my vacancy analysis, statistics and machine learning were requested in several vacancies and are only partly covered by my current skills. I apply the skill to a biological question: **can a machine learning model distinguish cancer types (or subtypes) based on gene and which genes and processes drive it**
+
+For this I will be using 
 
 ## Plan (32 hours)
 
@@ -54,10 +56,10 @@ In my vacancy analysis, statistics and machine learning were requested in severa
 
 ## How I will show I learned the skill
 
-- A reproducible analysis (Rmd or notebook, with code in a GitHub repository).
+- A reproducible analysis (Rmd or notebook, with code in a GitHub repository). with the code explained step by step
 - Data preparation and a proper **train/test split**
 - At least two models
-- Evaluation with a PCR matrix, plus the most important genes and whether they make biological sense.
+- Evaluation with a PCR matrix, plus a figure of the most important genes with a GO enrichment plot and whether they make biological sense.
 - A reflection on limitations: many more genes than samples, overfitting, and what the model can and cannot say.
 
 ## Learning log
