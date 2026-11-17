@@ -1,0 +1,71 @@
+# Journey to becoming a clinical bioinformatician
+## Where I want to be in 1-2 years
+In one to two years I want to work as a junior clinical bioinformatician or a NGS molecular diagnostics specialist at a hospital or research institute analysing RNA seq and clinical data to answer questions about ....
+
+## Where I stand now
+
+To see where my skills compare with what employers ask for, I analysed 17 vacancies (11 in the Netherlands and 6 abroad) for (junior) bio-informaticians and noted which skills each one requires
+
+```{r vacancy-table}
+library(tidyverse)
+Vacancy_skillset <- tibble(
+  skills = c("Python", "R", "Bash/Linux", "Git", "Statistics/ML", "Snakemake/Nextflow", "Dockers/Containers", "NGS data analysis and file formats (fastq, bam"),
+  frequency_in_vacancies = c(5, 3, 7, 1, 2, 9, 1, 8),
+  Do_I_have_it = c("Yes", "Yes", "Yes", "Yes", "Partly", "No", "No", "Basic"))
+
+Vacancy_skillset
+ggplot(Vacancy_skillset, aes(x = reorder(skills, frequency_in_vacancies), y = frequency_in_vacancies, fill = Do_I_have_it)) + 
+  geom_col() + 
+  coord_flip() +
+  labs(title = "List of skills asked for in clinical bio-informatics vacancies",
+       x = "Skills",
+       y = "Number of vacancies") +
+  theme_minimal()
+```
+
+## Current Strenghts
+On the data side I work in R (RNA-seq analysis, metagenomics, GO enrichment), Python and Bash, and I use Git and RMarkdown for reproducible reporting. On the lab side I have hands-on experience with SDS-PAGE, Western blot, BCA assays, PCR and sterile technique, which helps me understand how the data I analyse is produced
+
+### Vacancies information
+Most vacancies in that have a requirement for data science in research, biotech, diagnostics ask for knowledge in python, R and statistics/machine learning and experience with snakemake or Nextflow. For example a vacancy in Amsterdam UMC (genome diagnostics) asks for Python, familiarity with quality assurance systems and ISO standards, and willingness to work with Linux and HPC while a UMC Groningen vacancy asks for experience with Snakemake or Nextflow plus knowledge of data stewardship rules, Erasmus MC asks for Python or Java and Nextflow or Snakemake, and Maastricht UMC+ lists HPC, Linux, SLURM and Snakemake/Nextflow.
+
+## What I still want to learn
+Out of the 17 vacancies most ask for experience in snakemake and nextflow. However for this course I will be tackling machine learning/statistics and using that on NGS data analysis. I chose machine learning first I am curious about what expression data can predict, and it builds on the R/Python skills I already have
+
+# Learning machine learning for biology: predicting cancer type from RNA-seq data
+
+## Why this skill
+
+<!-- Short justification that links back to the previous chapter. -->
+In my vacancy analysis, statistics and machine learning were requested in several vacancies and are only partly covered by my current skills. I apply the skill to a biological question: **can machine learning distinguish cancer types (or subtypes) based on gene expression profiles?**
+
+## Plan (32 hours)
+
+| Step | Hours | When | Result |
+|:-----|------:|:-----|:-------|
+| Choosing the skill and justification | 2 | 17–22 Nov | Chapter above |
+| Planning | 2 | 17–22 Nov | This section |
+| Learning: ML basics and a tutorial in **[scikit-learn / tidymodels]** | 8 | 23 Nov – 6 Dec | Practice notebook on tutorial data |
+| Applying: models on a new RNA-seq dataset | 14 | 7–20 Dec | Analysis with trained and evaluated models |
+| Write-up | 6 | 21–27 Dec | Final chapter on this portfolio |
+| Buffer | – | 28 Dec – 2 Jan | Corrections before the 3 January deadline |
+
+**What I need:** a public RNA-seq dataset with cancer-type labels from **[source, e.g. TCGA or GEO]**, **[Python with scikit-learn or R with tidymodels]**, and a tutorial or course on supervised learning.
+
+## How I will show I learned the skill
+
+- A reproducible analysis (Rmd or notebook, with code in a GitHub repository).
+- Data preparation and a proper **train/test split**
+- At least two models
+- Evaluation with a PCR matrix, plus the most important genes and whether they make biological sense.
+- A reflection on limitations: many more genes than samples, overfitting, and what the model can and cannot say.
+
+## Learning log
+
+## Data and preparation
+
+## Models and results
+
+## Reflection
+
+## Credits
