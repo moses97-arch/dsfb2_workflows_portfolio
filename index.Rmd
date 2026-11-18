@@ -3,8 +3,9 @@ title: "Portfolio Moses Lahai"
 author: "Moses Lahai"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown:gitbook
+output: bookdown::gitbook
 ---
+
 # Welcome
 
 This is my portfolio for the course Workflows (Data Science for Biology 2).
